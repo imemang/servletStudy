@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>»ç¿ëÀÚÀÔ·Â</title>
+<title>ì‚¬ìš©ìì…ë ¥</title>
 <script type="text/javascript">
 	function send(form){
-		value = prompt("ÀÔ·ÂÇÏ½Å ³»¿ëÀÌ ¸Â³ª¿ä", form.keyword.value);
+		value = prompt("ì…ë ¥í•˜ì‹  ë‚´ìš©ì´ ë§ë‚˜ìš”", form.keyword.value);
 		
 		if(value == null){
 			return false;
@@ -19,12 +19,12 @@
 </script>
 </head>
 <body>
-	<h3>¿¬¶ôÃ³</h3>
+	<h3>ì—°ë½ì²˜</h3>
 	<form method="post" action="/servlet/Contact">
-		ÀÌ¸§ : <input type="text" name="name"/>
-		¸ŞÀÏ : <input type="text" name="email"/>
+		ì´ë¦„ : <input type="text" name="name"/>
+		ë©”ì¼ : <input type="text" name="email"/>
 		<p/>
-		<input type="submit" value="Àü¼Û"/>	&nbsp; <input type="reset" value="Ãë¼Ò"/>		
+		<input type="submit" value="ì „ì†¡"/>	&nbsp; <input type="reset" value="ì·¨ì†Œ"/>		
 	</form>
 </body>
 </html>
